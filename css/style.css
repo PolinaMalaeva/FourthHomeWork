@@ -1,0 +1,369 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-SemiBold_600";
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Impact-Regular";
+    src: url('../fonts/Impact-Regular.ttf');
+}
+header {
+    background: #313131;
+}
+
+.header {
+    background: url("../img/room.jpg") right bottom no-repeat, #313131 url("../img/bg_above.png") no-repeat;
+    padding-bottom: 180px;
+}
+
+.wrap {
+    max-width: 1370px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.title {
+    font-size: 68px;
+    line-height: 83px;
+    color: #EC7F00;
+    font-family: "Impact-Regular";
+    text-align: center;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D2D2D;
+    font-family: "Montserrat-SemiBold_600";
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+}
+
+.header_top .flex {
+    padding-top: 30px;
+    margin-bottom: 65px;
+    align-items: center;
+}
+
+.flex .empty {
+    width: 280px;
+}
+
+.logo {
+    font-family: "Impact-Regular";
+    font-size: 68px;
+    line-height: 83px;
+    color: #F2A500;
+}
+
+.logo span {
+    color: #FFFFFF;
+}
+
+button {
+    background: #EC7F00;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold";
+}
+
+.btn_application {
+    margin-right: 40px;
+    min-width: 280px;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 198px;
+}
+
+.menu a:not(:last-child) {
+    margin-right: 85px;
+}
+
+body .menu a {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Montserrat-SemiBold_600";
+}
+
+.text .title {
+    color: #FFFFFF;
+    margin-bottom: 21px;
+    text-align: left;
+}
+
+.text .description {
+    color: #FFFFFF;
+    max-width: 325px;
+    margin-bottom: 85px;
+}
+
+.about_us {
+    padding: 118px 0 131px;
+}
+
+.about_us .title {
+    margin-bottom: 44px;
+}
+
+.about_us .description {
+    max-width: 765px;
+}
+
+.about_us .description p {
+    margin: 20px 0;
+}
+
+.description ul li {
+    list-style: inside disc;
+}
+
+.description ul li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.description ul li::marker {
+    color: #EC7F00;
+}
+
+.subtitle {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #2D2D2D;
+    margin-top: 42px;
+    font-family: "Montserrat-SemiBold_600";
+}
+
+.subtitle span {
+    color: #EC7F00;
+    text-transform: uppercase;
+}
+
+.catalog .description {
+    text-align: center;
+    max-width: 315px;
+    margin: 0 auto 50px;
+}
+
+.flex_item {
+    max-width: 360px;
+}
+
+.flex_item:nth-child(2) {
+    max-width: 515px;
+}
+
+.block_position {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.block_color {
+    background: #EC7F00;
+    width: 307px;
+    height: 307px;
+    position: absolute;
+    bottom: -35px;
+    right: -35px;
+    z-index: -1;
+}
+
+.catalog button {
+    display: block;
+    min-width: 210px;
+    height: 60px;
+    margin: 40px auto 85px;
+}
+
+.flex_2 {
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.flex_2 .flex_item:not(:last-child) {
+    margin-right: 115px;
+}
+
+.advantages {
+    padding: 38px 0 92px;
+}
+
+.advantages .title {
+    margin-bottom: 65px;
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block_item {
+    max-width: 319px;
+    background: #E9E9E9;
+    padding-top: 60px;
+    height: max-content;
+    margin-bottom: 80px;
+}
+
+.block_item p {
+    max-width: 230px;
+    margin: 0 auto;
+}
+
+.block_item .bold {
+    font-family: "Montserrat-Bold";
+    margin-bottom: 20px;
+}
+
+.block_item img {
+    max-width: inherit;
+    margin-top: 48px;
+}
+
+.scheme {
+    margin: 120px 0 0;
+}
+
+.scheme_item {
+    max-width: 273px;
+    min-height: 200px;
+    position: relative;
+}
+
+.scheme_item div {
+    display: inline-block;
+    text-align: center;
+}
+
+.scheme_item div:nth-child(2) {
+   vertical-align: top;
+}
+
+.scheme_item .description {
+    max-width: 172px;
+    margin-top: 10px;
+}
+
+.scheme_item .number {
+    display: inline-block;
+    font-size: 100px;
+    line-height: 122px;
+    color: #E9E9E9;
+    font-family: "Impact-Regular";
+    margin-right: 5px;
+}
+
+.scheme .flex {
+    min-height: 300px;
+}
+
+.scheme .flex:last-child {
+    flex-direction: row-reverse;
+    margin-top: 70px;
+}
+
+.flex:first-child .scheme_item:nth-child(even) {
+    align-self: start;
+}
+
+.flex:first-child .scheme_item:nth-child(odd) {
+    align-self: end;
+}
+
+.flex:last-child .scheme_item:nth-child(even) {
+    align-self: end;
+}
+
+.flex:last-child .scheme_item:nth-child(odd) {
+    align-self: start;
+}
+
+.flex:first-child  .scheme_item:nth-child(odd):after {
+    content: url("../img/arrow_1.png");
+    position: absolute;
+    right: -125px;
+    bottom: 90px;
+}
+
+.flex:first-child .scheme_item:nth-child(even):after {
+    content: url("../img/arrow_1.png");
+    position: absolute;
+    right: -100px;
+    bottom: 130px;
+    transform: scale(1, -1);
+}
+
+.flex:first-child .scheme_item:last-child:after {
+    content: url("../img/arrow_1.png");
+    position: absolute;
+    right: 165px;
+    bottom: -25px;
+    transform: rotate(-67deg) scale(-1, -1);
+}
+
+.flex:last-child  .scheme_item:nth-child(odd):not(:last-child):after {
+    content: url("../img/arrow_1.png");
+    position: absolute;
+    right: 160px;
+    bottom: -15px;
+    transform: rotate(-50deg) scale(-1, 1);
+}
+
+.flex:last-child  .scheme_item:nth-child(even):after {
+    content: url("../img/arrow_1.png");
+    position: absolute;
+    right: 170px;
+    bottom: 225px;
+    transform: rotate(50deg) scale(-1, -1);
+}
+
+.process button {
+    display: block;
+    margin: 95px auto 170px;
+}
+
+.contacts .flex {
+    margin: 115px 0 80px;
+}
+
+.contacts .bold {
+    font-family: "Montserrat-Bold";
+}
+
+.contacts p:nth-child(even) {
+    margin-bottom: 15px;
+}
+
+.contacts_text {
+    align-self: center;
+}
+
+footer {
+    height: 145px;
+    background: #313131;
+}
+
+footer .flex {
+    align-items: center;
+}
+
+footer .menu {
+    margin: 0;
+}
